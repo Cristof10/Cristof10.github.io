@@ -1,0 +1,142 @@
+*{border: 0px solid #FF0000;}
+header section ul li{
+    display: inline-block;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-SemiBold.woff') format('woff');
+}
+  
+
+/************HEADER*********/
+#menu {
+    background-color: #A3A656;
+    color: #000;
+    padding: 26px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+#menu ul{
+    display: inline;
+    position: relative;
+    left: 3px;
+    list-style-type: none; 
+}
+#Izq li{
+    margin-right: 30px;
+}
+#Izq li a{
+    color: #000;
+    text-decoration: none;
+}
+#Der{
+    float: right;
+    bottom: 35px;
+}
+
+#Der li{
+    margin-right: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+#mc{
+    float: right;
+    position: relative;
+    top: 21px;
+    margin-left: 10px;
+}
+#e {
+    float: left;
+    position: relative;
+    top: 7px;
+    margin-right: 10px;
+}
+#a{
+    position: relative;
+    bottom: 12px;
+}
+
+/************MAIN**********/
+#main{
+    height: 650px;
+    background-image: url("../images/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_main{
+    position:relative;
+    top: 100px;
+    left: 100px;
+    width: 700px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#main h1{
+    font-size: 6.0rem;
+    margin: 0px;
+}
+
+#main p{
+    margin: 0px;
+    font-size: 32px;
+}
+
+#Ingr_Datos{
+    background: #F2F6F6;
+    height: 100px;;
+}
+
+#Ingr_Datos input{
+    border-radius: 10px ;
+    padding: 15px;
+}
+
+#Ingr_Datos div{
+    font-family: 'Inter', sans-serif;
+}
+
+.cita{
+    position: relative;
+    top: 30px;
+    left: 350px;
+    float: left;
+    
+}
+.code{
+    position: relative;
+    top: 30px;
+    right: 350px;
+    float: right;
+}
+
+#servicios{
+    background: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: 33px;
+}
+
+#servicios h2{
+    margin: 0px;
+    background: #A3A656;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 550;
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+}
+
+#servicios article{
+    display: inline-block;
+    width: 430px;
+    padding: 67px;
+}
+
+#servicios article div img{
+    width: 430px;
+}
