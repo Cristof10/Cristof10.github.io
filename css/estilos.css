@@ -1,64 +1,65 @@
 *{border: 0px solid #FF0000;}
-header section ul li{
-    display: inline-block;
-}
+
+header section ul li{display: inline-block;}
+
+*{font-family: 'Inter', sans-serif;}
+
+body {margin: 0;} 
 
 @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter-SemiBold.woff') format('woff');
-}
-
-body {
-    margin: 0;
-} 
+    font-family: 'Romanesco';
+    src: url('../font/Romanesco-Regular.ttf');
+  }
+  
 
 /************HEADER*********/
 #menu {
     background-color: #A3A656;
     color: #000;
     padding: 26px;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
 }
+
 #menu ul{
     display: inline;
     position: relative;
     left: 3px;
     list-style-type: none; 
 }
-#Izq li{
-    margin-right: 30px;
-}
+
+#Izq li{margin-right: 30px;}
+
 #Izq li a{
     color: #000;
     text-decoration: none;
 }
+
 #Der{
     float: right;
     bottom: 35px;
 }
 
-#Der li{
-    margin-right: 30px;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-}
+#Der li img{padding-top: 5px;}
+
 #mc{
     float: right;
     position: relative;
-    top: 21px;
+    top: 19px;
     margin-left: 10px;
+    margin-right: 50px;
 }
+
 #e {
     float: left;
-    position: relative;
-    top: 7px;
     margin-right: 10px;
+    padding-top: 13px;
 }
-#a{
-    position: relative;
-    bottom: 12px;
-}
+#a{padding-bottom: 20px;}
+
+#f{padding-bottom: 8px;}
+
+#Izq li a:hover{color:  #FFFF00;}
+
+#Der li div:hover{color:  #FFFF00;}
 
 /************MAIN**********/
 #main{
@@ -78,13 +79,16 @@ body {
 }
 
 #main h1{
+    font-family: Romanesco;
     font-size: 6.0rem;
     margin: 0px;
+    font-weight: 100;
 }
 
 #main p{
     margin: 0px;
     font-size: 32px;
+    font-weight: bold;
 }
 
 #Ingr_Datos{
@@ -95,10 +99,6 @@ body {
 #Ingr_Datos input{
     border-radius: 10px ;
     padding: 15px;
-}
-
-#Ingr_Datos div{
-    font-family: 'Inter', sans-serif;
 }
 
 .cita{
@@ -115,6 +115,8 @@ body {
     float: right;
 }
 
+/***********SERVICIOS**************/
+
 #servicios{
     background: #FFFFFF;
     text-align: center;
@@ -127,23 +129,20 @@ body {
     margin: 0px;
     background: #A3A656;
     color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
     font-size: 32px;
-    font-weight: 550;
+    font-weight: 500;
     border-radius: 15px 15px 0px 0px;
-    padding-top: 30px;
-    padding-bottom: 30px ;
+    padding: 30px 0px;
 }
 
 #servicios article{
     display: inline-block;
-    width: 360px;
+    width: 340px;
     padding: 0px 67px;
 }
 
-#servicios article img{
-    width: 360px;
-}
+#servicios article img{ width: 340px;}
+#servicios article p{ text-align: left;}
 
 #servicios article ul li {
     display: inline;
@@ -152,16 +151,23 @@ body {
 }
 
 #servicios li:first-of-type {
+    vertical-align: middle;
     position: relative;
-    top: 10px;
+    right: 30px;
+    font-weight: 900;
+    font-size: 32px;
+    margin: 0px;
 }
 
 #servicios li:first-of-type + li {
-    margin-left: 150px;
-    padding: 10px 30px;
+    margin-left: 80px;
+    padding: 10px 40px;
     border-radius: 35px;
     background-color: #A3A656;
+    color: #FFFFFF;
 }
+
+#servicios li:first-of-type + li:hover{background-color: #384001;}
 
 /***********PLANES********/
 #planes{
@@ -171,7 +177,6 @@ body {
 }
 
 #planes h1{
-    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 550;
     padding: 50px;
@@ -187,7 +192,8 @@ body {
     border-radius: 50%;
     height: 255px;
     width: 255px;
-    border: 11px solid #333;
+    border: 11px solid #384001;
+    background-color: #FFFFFF;
     left: 10%;
 }
 
@@ -215,9 +221,7 @@ body {
     display: inline-block;
 }
 
-#planes article ul li{
-    text-align: justify;
-}
+#planes article ul li{text-align: justify;}
 
 #planes article:nth-last-child(2) {
     position: relative;
@@ -228,6 +232,8 @@ body {
     position: relative;
     bottom: 38px;
 }
+
+#planes article p:hover{background-color: #384001;}
 
 /*********FOOTER********/
 
@@ -243,7 +249,7 @@ footer ul {
 }
 footer ul li{
     display: inline-block;
-    padding-right: 6%;
+    padding-right: 7%;
 }
 footer ul li a{
     text-decoration: none;
@@ -256,10 +262,10 @@ footer ul li img{
 }
 
 footer ul li:nth-last-child(2) {
-    padding-right: 30px;
-    padding-left: 100px;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
-footer ul li:last-child {
-    padding: 0px 10px;
-}
+footer ul li:last-child {padding: 0px 10px;}
+
+footer ul li a:hover{color: #FFFF00;}
