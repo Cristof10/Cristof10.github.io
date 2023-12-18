@@ -1,18 +1,15 @@
 *{border: 0px solid #FF0000;}
-
-header section ul li{display: inline-block;}
-
 *{font-family: 'Inter', sans-serif;}
-
 body {margin: 0;} 
-
+footer {margin: 0;}
 @font-face {
     font-family: 'Romanesco';
     src: url('../font/Romanesco-Regular.ttf');
-  }
+}
   
-
 /************HEADER*********/
+header section ul li{display: inline-block;}
+
 #menu {
     background-color: #A3A656;
     color: #000;
@@ -54,11 +51,8 @@ body {margin: 0;}
     padding-top: 13px;
 }
 #a{padding-bottom: 20px;}
-
 #f{padding-bottom: 8px;}
-
 #Izq li a:hover{color:  #FFFF00;}
-
 #Der li div:hover{color:  #FFFF00;}
 
 /************MAIN**********/
@@ -106,7 +100,6 @@ body {margin: 0;}
     top: 30px;
     left: 350px;
     float: left;
-    
 }
 .code{
     position: relative;
@@ -122,7 +115,6 @@ body {margin: 0;}
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
-    
 }
 
 #servicios h2{
@@ -138,8 +130,8 @@ body {margin: 0;}
 #servicios article{
     display: inline-block;
     width: 340px;
-    padding: 0px 67px;
 }
+#art{padding-right: 134px;}
 
 #servicios article img{ width: 340px;}
 #servicios article p{ text-align: left;}
@@ -154,14 +146,14 @@ body {margin: 0;}
     vertical-align: middle;
     position: relative;
     right: 30px;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 32px;
     margin: 0px;
 }
 
 #servicios li:first-of-type + li {
-    margin-left: 80px;
-    padding: 10px 40px;
+    margin-left: 58px;
+    padding: 10px 50px;
     border-radius: 35px;
     background-color: #A3A656;
     color: #FFFFFF;
@@ -241,15 +233,17 @@ footer{
     height: 97px;
     background: #384001;
 }
+
 footer ul {
     display: inline;
+    vertical-align: middle;
     position: relative;
-    left: 30px;
-    top: 35.5px;
 }
+
 footer ul li{
     display: inline-block;
-    padding-right: 7%;
+    padding-right: 90px;
+    padding-top: 40.5px;
 }
 footer ul li a{
     text-decoration: none;
@@ -261,11 +255,11 @@ footer ul li img{
     padding: 0px 10px;
 }
 
-footer ul li:nth-last-child(2) {
-    padding-right: 20px;
-    padding-left: 10px;
+footer ul li:last-child {
+    float: right;
+    padding: 28.5px 0px;
+    color: #A3A656;
 }
 
-footer ul li:last-child {padding: 0px 10px;}
-
 footer ul li a:hover{color: #FFFF00;}
+footer ul li:hover{color: #FFFF00;}
